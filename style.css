@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    line-height: 1.5;
 }
 @font-face {
     font-family: "Black-tower";
@@ -16,7 +17,7 @@
 #navigation{
     display: flex;
     align-items: center;
-    padding: 2% 0;
+    padding: 1.5% 0;
 }
 .nav-left img{
     width: 120px;
@@ -39,6 +40,7 @@ font-family: "Raleway";
 letter-spacing: 1px;
 font-weight: bold;
 transition: all ease-in-out .5s;
+font-size: 15px;
 }
 .active a{
     color: #03AF09;
@@ -64,7 +66,181 @@ transition: all ease-in-out .5s;
     text-align: center;
 }
 .home-img img{
-    margin: 200px;
-    width: 40%;
+    margin: 100px;
+    width: 35%;
+}
+#section2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 5%;
+    background-color: #D6E5FA;
+    align-items: center;
+}
+#section2 hr{
+    height: 70px;
+    width: .25%;
+    background-color: #0F6212;
+ }
 
+ /* SECTION 2 */
+.new{
+    margin: 0 auto;
+}
+.new h5, .upcoming-header h5{
+    text-transform: uppercase;
+    color: #0F6212;
+    font-family: "Black-tower";
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.new span a{
+    text-transform: capitalize;
+    background-color: #0F6212;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/* SECTION 3 - UPCOMING EVENTS */
+#section3{
+    text-align: center;
+    margin: 2% 0;
+}
+.upcoming-header h5{
+    font-size: 20px;
+}
+.upcoming-header .line{
+    width: 50%;
+}
+.upcoming-cont{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 2% auto;
+}
+.upcoming{
+    margin: 2%;
+}
+.upcoming img{
+    width: 100%;
+}
+
+/* SECTION 4 - SOCIAL MEDIA */
+#section4{
+    display: flex;
+    background-color: #03AF09;
+    padding: 4% 7%;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    font-family: "Black-tower";
+    color: #fff;
+    font-weight: 100;
+    margin: 0 auto;
+}
+.social i{
+    color: #fff;
+    font-size: 2.8rem;
+}
+.icon, .media{
+    margin: 0 5px;
+}
+.social h4{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.social h6{
+    font-size: 10px;
+    font-weight:lighter;
+    letter-spacing: 2px;
+}
+
+/* SECTION 5 - FOOTER */
+#section5{
+    background-color: #1E1D1D;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    font-family: "Raleway";
+    color: rgb(221, 220, 220);
+    width: 75%;
+    margin: 0 auto;
+}
+.contact, .about, .hr-line{
+    margin: 0 4%;
+}
+.about h3, h4{
+    text-transform: uppercase;
+}
+.about h3{
+    color: #03AF09;
+    font-weight: lighter;
+}
+.ourChurch{
+    background-color: #03AF09;
+    padding: 6px;
+    display: inline-block;
+    margin-bottom: 2%;
+    border-radius: 2px;
+}
+.days{
+    text-transform: uppercase;
+}
+.hr-line{
+    height: 300px;
+    border: .3px solid #03AF09;
+}
+.contact-header{
+    text-transform: uppercase;
+    font-family: "Black-tower";
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contact-header span{
+    display: block;
+}
+input, label{
+    display: block;
+}
+label{
+    text-transform: uppercase;
+    margin: 3% 0;
+}
+input{
+    width: 100%;
+    padding: 4% 2%;
+    background-color: #D6E5FA;
+    border: none;
+}
+.checkbox{
+    width: 20px;
+    margin-right: 5px;
+}
+.check{
+    display: flex;
+    margin: 3% 0;
+    align-items:baseline;
+}
+
+/* SECTION 6 - COPYRIGHT */
+#copyright{
+    text-align: center;
+    font-family: "Raleway";
+    padding: 2%;
+    background-color: #1E1D1D;
+    border-top: 4px solid #2b2a2a;
+    color: rgb(221, 220, 220);
+}
+.copyright{
+    text-transform: uppercase;
 }
