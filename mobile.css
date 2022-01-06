@@ -1,0 +1,39 @@
+@media (max-width:1015px){
+.nav-list a{
+    font-size: 10px;
+}
+
+}
+@media (max-width:785px){
+.nav-left img{
+    margin-left: 80px;
+}
+.nav-list a{
+    font-size: 8px;
+}
+.new h5, .upcoming-header h5{
+    font-size: 10px;
+}
+.social i{
+    font-size: 2.5rem;
+}
+.social h4{
+    font-size: 15px;
+    line-height: ;
+}
+.ourChurch{
+    margin-bottom: 80px;
+}
+.footer{
+    padding: 5% 2%;
+    width: 90%;
+    font-size: 15px;
+}
+.contact-header{
+    font-size: 20px;
+}
+.copyright{
+    font-size: 12px;
+}
+
+}
