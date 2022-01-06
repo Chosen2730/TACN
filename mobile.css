@@ -37,3 +37,113 @@
 }
 
 }
+@media (max-width:636px){
+#navigation{
+    display: flex;
+    align-items: baseline;
+    padding: 2% 4%;
+}
+.nav-cont{
+    display: block;
+    align-items:baseline;
+    padding: 1.5% 0;
+}
+.nav-left img{
+    width: 120px;
+    margin-left: 30px;
+}
+.nav-right ul{
+    display: block;
+}
+.nav-right{
+   margin: 0;
+   width: 100%;
+   display: none;
+}
+.nav-list{
+    padding: 2%;
+    transition: all ease-in-out .5s;
+}
+.hamburger{
+    display: block;
+    margin-left: auto;
+    font-size: 1.2rem;
+    color: #03AF09;
+}
+.close{
+    display: none;
+}
+#section2{
+    display: block;
+    padding: 10% 5%;
+    text-align: center;
+}
+#section2 hr{
+    height: 20px;
+    width: .25%;
+    margin: 30px auto;
+    background-color: #0F6212;
+ }
+ #section3{
+    text-align: center;
+    margin: 6% 0;
+}
+ .upcoming-cont{
+    display: block;
+    justify-content: center;
+    width: 75%;
+    margin: 2% auto;
+}
+.upcoming{
+    margin: 50px 2%;
+}
+#section4{
+    background-color: #03AF09;
+    padding: 9% 7%;
+    justify-content: center;
+}
+.media-cont{
+    justify-content: center;
+}
+.media{
+    display: none;
+}
+.mob-social{
+    display: block;
+}
+.mob-social h5{
+    text-align: center;
+    font-size: 15px;
+    margin: 2% 2% 5%;
+    color: rgb(229, 226, 226);
+}
+.social{
+    margin: 0 10px;
+}
+.footer{
+    display: block;
+    align-items: center;
+    padding: 17% 3% 2%;
+    font-family: "Raleway";
+    color: rgb(221, 220, 220);
+    width: 90%;
+    margin: 0 auto;
+}
+.contact{
+    margin: 100px 4%;
+}
+.contact-header{
+    font-size: 15px;
+}
+.footer, .copyright{
+    font-size: 12px;
+}
+label{
+    text-transform: uppercase;
+    margin: 5% 0;
+}
+.topButton i{
+    display: block;
+}
+
+}

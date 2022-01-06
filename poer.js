@@ -1,15 +1,3 @@
-$(".close").hide();
-$(".open").click(function(){
-    $(".nav-right").show();
-    $(".close").show();
-    $(".open").hide();
-})
-$(".close").click(function(){
-    $(".nav-right").hide();
-    $(".open").show();
-    $(".close").hide();
-});
-
 var scrollToTopBtn = document.getElementById("topButton");
 var rootElement = document.documentElement;
 function scrollToTop() {

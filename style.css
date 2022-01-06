@@ -14,7 +14,10 @@
 }
 
 /* NAVIGATION */
-#navigation{
+.hamburger{
+    display: none;
+}
+.nav-cont{
     display: flex;
     align-items: center;
     padding: 1.5% 0;
@@ -33,14 +36,14 @@
     justify-content: space-around;
 }
 .nav-list a{
-text-decoration: none;
-text-transform: uppercase;
-color: #0F6212;
-font-family: "Raleway";
-letter-spacing: 1px;
-font-weight: bold;
-transition: all ease-in-out .5s;
-font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0F6212;
+    font-family: "Raleway";
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: all ease-in-out .5s;
+    font-size: 15px;
 }
 .active a{
     color: #03AF09;
@@ -80,6 +83,8 @@ font-size: 15px;
     margin: 100px;
     width: 35%;
 }
+
+ /* SECTION 2 */
 #section2{
     display: flex;
     margin: 0 auto;
@@ -93,8 +98,6 @@ font-size: 15px;
     width: .25%;
     background-color: #0F6212;
  }
-
- /* SECTION 2 */
 .new{
     margin: 0 auto;
 }
@@ -139,8 +142,10 @@ font-size: 15px;
 }
 
 /* SECTION 4 - SOCIAL MEDIA */
-#section4{
+.media-cont{
     display: flex;
+}
+#section4{
     background-color: #03AF09;
     padding: 4% 7%;
     justify-content: center;
@@ -170,6 +175,9 @@ font-size: 15px;
     font-size: 10px;
     font-weight:lighter;
     letter-spacing: 2px;
+}
+.mob-social{
+    display: none;
 }
 
 /* SECTION 5 - FOOTER */
@@ -266,4 +274,17 @@ input{
 }
 .copyright{
     text-transform: uppercase;
+}
+.topButton{
+    position: fixed;
+    bottom: 7%;
+    right: 4%;
+    color: #0F6212;
+    /* background-c?olor: #0F6212; */
+    border-radius: 100%;
+    padding: 3%;
+}
+.topButton i{
+    font-size: 1.5rem;
+    display: none;
 }
