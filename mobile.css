@@ -49,8 +49,8 @@
     padding: 1.5% 0;
 }
 .nav-left img{
-    width: 120px;
-    margin-left: 30px;
+    width: 100px;
+    margin-left: 80px;
 }
 .nav-right ul{
     display: block;
@@ -60,9 +60,16 @@
    width: 100%;
    display: none;
 }
+.nav-list a{
+    font-size: 12px;
+}
 .nav-list{
-    padding: 2%;
+    padding: 6% 2%;
     transition: all ease-in-out .5s;
+}
+.home-img img{
+    margin: 100px 0;
+    width: 45%;
 }
 .hamburger{
     display: block;
@@ -75,15 +82,31 @@
 }
 #section2{
     display: block;
-    padding: 10% 5%;
-    text-align: center;
+    padding: 12% 7% 12% 12%;
+    /* text-align: center; */
 }
 #section2 hr{
     height: 20px;
     width: .25%;
     margin: 30px auto;
     background-color: #0F6212;
+    display: none;
  }
+ .new h5{
+    font-size: 12px;
+    font-weight: lighter;
+}
+.upcoming-header h5{
+    font-size: 15px;
+}
+ .new span a{
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 50%;
+    border-radius: 5px;
+
+}
  #section3{
     text-align: center;
     margin: 6% 0;
@@ -113,12 +136,15 @@
 }
 .mob-social h5{
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     margin: 2% 2% 5%;
     color: rgb(229, 226, 226);
 }
 .social{
     margin: 0 10px;
+}
+.social i{
+    font-size: 1.8rem;
 }
 .footer{
     display: block;
@@ -128,6 +154,14 @@
     color: rgb(221, 220, 220);
     width: 90%;
     margin: 0 auto;
+}
+.about h3, h4, .ourChurch{
+    font-size: 15px;
+}
+.ourChurch{
+    font-size: 12px;
+    padding: 6px 12px;
+    margin-bottom: 5%;;
 }
 .contact{
     margin: 100px 4%;
@@ -145,5 +179,17 @@ label{
 .topButton i{
     display: block;
 }
+}
+@media (max-width:425px) {
+    .nav-left img{
+        width: 100px;
+        margin-left: 150px;
+    }
+}
 
+@media (max-width: 310px) {
+    .nav-left img{
+        width: 100px;
+        margin-left: 0;
+    }
 }
