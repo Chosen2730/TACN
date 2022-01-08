@@ -14,17 +14,23 @@
 }
 
 /* NAVIGATION */
+#section1{
+    position: absolute;
+    top: 0;
+    z-index: 9000;
+    width: 100%;
+}
 .hamburger{
     display: none;
 }
 .nav-cont{
     display: flex;
     align-items: center;
-    padding: 1.5% 0;
+    background-color: transparent;
 }
 .nav-left img{
-    width: 120px;
-    margin-left: 150px;
+    width: 300px;
+    margin-left: auto;
 }
 .nav-right{
     margin-left: auto;
@@ -38,7 +44,7 @@
 .nav-list a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #0F6212;
+    color: #fff;
     font-family: "Raleway";
     letter-spacing: 1px;
     font-weight: bold;
@@ -46,22 +52,22 @@
     font-size: 15px;
 }
 .active a{
-    color: #03AF09;
+    color: #fff;
 }
 .nav-list i{
     font-weight: light;
-    color: #0F6212;
+    color: #fff;
     font-size: 1.2rem;
 }
 .nav-list{
-    padding: 3%;
+    padding: 1.5%;
     transition: all ease-in-out .5s;
 }
 .nav-list:hover{
-    border-top: 3px solid #03AF09;
+    background-color: #ff0000;
 }
 .nav-list a:hover{
-    color: #03AF09;
+    color: #fff;
     }
 /* HEADER */
 .carousel-item{
@@ -111,7 +117,7 @@
 }
 .new span a{
     text-transform: capitalize;
-    background-color: #0F6212;
+    background-color: #ff0000;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -146,9 +152,10 @@
     display: flex;
 }
 #section4{
-    background-color: #03AF09;
-    padding: 4% 7%;
+    background: rgb(0,107,62);
+    background: linear-gradient(90deg, rgba(0,107,62,1) 0%, rgba(2,20,41,1) 0%, rgba(82,240,6,1) 0%, rgba(51,157,19,1) 0%, rgba(28,93,29,1) 70%, rgba(66,118,27,1) 80%, rgba(255,242,18,1) 100%, rgba(27,89,30,1) 100%);
     justify-content: center;
+    padding: 4%;
 }
 .social{
     display: flex;
@@ -158,9 +165,8 @@
     font-weight: 100;
     margin: 0 auto;
 }
-.social i{
-    color: #fff;
-    font-size: 2.8rem;
+.icon img{
+    width: 70px;
 }
 .icon, .media{
     margin: 0 5px;
@@ -200,22 +206,20 @@
     text-transform: uppercase;
 }
 .about h3{
-    color: #03AF09;
+    color: #fff212;
     font-weight: lighter;
+    font-size: 20px;
 }
 .ourChurch{
-    background-color: #03AF09;
+    background-color: #ff0000;
     padding: 6px;
     display: inline-block;
     margin-bottom: 2%;
     border-radius: 2px;
+    font-size: 20px;
 }
 .days{
     text-transform: uppercase;
-}
-.hr-line{
-    height: 300px;
-    border: .3px solid #03AF09;
 }
 .contact-header{
     text-transform: uppercase;
@@ -250,7 +254,7 @@ input{
     align-items:baseline;
 }
 .submit{
-    background-color: #03AF09;
+    background-color: #ff0000;
     font-size: 15px;
     text-transform: uppercase;
     color: #fff;
@@ -260,7 +264,7 @@ input{
     cursor: pointer;
 }
 .submit:hover{
-    background-color: #0F6212;
+    background-color: #910505;
 }
 
 /* SECTION 6 - COPYRIGHT */
@@ -279,8 +283,7 @@ input{
     position: fixed;
     bottom: 7%;
     right: 4%;
-    color: #0F6212;
-    /* background-c?olor: #0F6212; */
+    color: #006b3e;
     border-radius: 100%;
     padding: 3%;
 }
