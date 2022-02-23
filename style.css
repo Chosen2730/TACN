@@ -359,6 +359,9 @@ input{
 .inform_cont p, .inform_cont li{
     color: #0F6212;
 }
+.inform_cont li{
+    margin: 15px 0;
+}
 #inform_cont_p{
     width: 50%;
 }
