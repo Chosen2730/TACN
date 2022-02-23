@@ -36,8 +36,17 @@
     font-size: 12px;
 }
 
+/* GIVE */
+.header_flex{
+    padding: 140px 0 10px;
+}
+
 }
 @media (max-width:636px){
+    .carousel .carousel-item img {
+        height: 55vh;
+        object-fit: cover;
+    }
 #navigation{
     display: flex;
     align-items: baseline;
@@ -172,6 +181,9 @@ label{
     margin: 5% 0;
 }
 .topButton i{
+    display: block;
+}
+.header_flex{
     display: block;
 }
 }

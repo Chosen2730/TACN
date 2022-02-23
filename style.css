@@ -291,3 +291,51 @@ input{
     font-size: 1.5rem;
     display: none;
 }
+
+/* GIVE PAGE */
+#give_header{
+    background: rgb(0,107,62);
+    background: linear-gradient(90deg, rgba(0,107,62,1) 0%, rgba(2,20,41,1) 0%, rgba(82,240,6,1) 0%, rgba(51,157,19,1) 0%, rgba(28,93,29,1) 70%, rgba(66,118,27,1) 80%, rgba(255,242,18,1) 10%, rgba(27,89,30,1) 10%);
+}
+.header_flex{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4% 0;
+    color: #fff;
+}
+#give p{
+    font-size: 17px;
+}
+.header_cont h1{
+    font-family: "Black-tower";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 3rem;
+}
+.header_cont1 p{
+    font-family: "Raleway";
+}
+.header_cont2 img{
+    width: 100%;
+}
+#account{
+    width: 80%;
+    margin: 50px auto;
+}
+.account1{
+    margin: 30px 0;
+    color: #006b3e;
+    font-family: "Raleway";
+}
+.account_desc{
+    text-transform: capitalize;
+}
+.account1 h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.account1 h3, .account_name{
+    text-transform: uppercase;
+}
