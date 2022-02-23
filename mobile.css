@@ -47,7 +47,7 @@
 }
 @media (max-width:636px){
     .carousel .carousel-item img {
-        height: 55vh;
+        height: 52vh;
         object-fit: cover;
     }
 #navigation{
