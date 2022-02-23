@@ -1,6 +1,9 @@
-@media (max-width:1015px){
+@media (max-width:1024px){
 .nav-list a{
     font-size: 10px;
+}
+.header_flex{
+    padding: 70px 0 10px;
 }
 
 }
