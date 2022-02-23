@@ -339,3 +339,33 @@ input{
 .account1 h3, .account_name{
     text-transform: uppercase;
 }
+/* INFORMATION */
+#information_cont{
+    width: 80%;
+    margin: 50px auto;
+    text-transform: capitalize;
+    font-family: "Raleway";
+}
+#information_cont p{
+    font-size: 15px;
+}
+.information_cont_header h5{
+    text-align: center;
+    color: #0F6212;
+}
+#inform_cont_p, .inform_cont h3{
+    color: #ff0000;
+}
+.inform_cont p, .inform_cont li{
+    color: #0F6212;
+}
+#inform_cont_p{
+    width: 50%;
+}
+.inform_cont{
+    margin: 50px 0;
+}
+.inform_cont h3{
+    font-size: 35px;
+    font-weight: bold;
+}

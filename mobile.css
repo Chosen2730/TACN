@@ -186,7 +186,12 @@ label{
 .topButton i{
     display: block;
 }
+/* GIVE */
 .header_flex{
     display: block;
+}
+/* INFORMATION */
+#inform_cont_p{
+    width: 100%;
 }
 }
