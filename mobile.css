@@ -72,6 +72,9 @@
     background-color: rgba(0, 107, 62, 0.9);
     padding: 1rem;
 }
+#media-drop{
+  background-color: transparent;
+}
 .nav-right{
    margin: 0;
    width: 100%;
@@ -79,11 +82,6 @@
 }
 .nav-list a{
     font-size: 15px;
-}
-.nav-list:hover{
-    background-color: #ff0000;
-    border-radius: 10px;
-    border: none;
 }
 .nav-list{
     transition: all ease-in-out .5s;

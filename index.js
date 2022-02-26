@@ -1,4 +1,5 @@
 $(".close").hide();
+$('.media-drop').hide();
 $(".open").click(function(){
     $(".nav-right").show();
     $(".close").show();
@@ -8,6 +9,12 @@ $(".close").click(function(){
     $(".nav-right").hide();
     $(".open").show();
     $(".close").hide();
+});
+$(".media_main").hover(function(){
+  $(".media-drop").toggle();
+});
+$(".media_main").click(function(){
+  $(".media-drop").toggle();
 });
 
 var scrollToTopBtn = document.getElementById("topButton");
