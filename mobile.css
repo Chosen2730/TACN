@@ -38,11 +38,19 @@
 .copyright{
     font-size: 12px;
 }
+/* ABOUT */
+#give_header{
+    padding: 2rem 0 0;
+}
 
 /* GIVE */
 .header_flex{
     padding: 140px 0 10px;
 }
+.header_cont2 img{
+    width: 20rem;
+}
+
 
 }
 @media (max-width:636px){
@@ -149,20 +157,9 @@
 .media-cont{
     justify-content: center;
 }
-.media{
-    display: none;
-}
-.mob-social{
-    display: block;
-}
 .mob-social h5{
-    text-align: center;
     font-size: 12px;
     margin: 2% 2% 5%;
-    color: rgb(229, 226, 226);
-}
-.social{
-    margin: 0 10px;
 }
 .icon img{
     width: 50px;
@@ -204,8 +201,31 @@ label{
 .header_flex{
     display: block;
 }
+#give_header{
+    padding: 0rem 0 0;
+}
 /* INFORMATION */
 #inform_cont_p{
     width: 100%;
+    padding-right: 0;
+}
+.inform_cont_div{
+    /* margin: 0 1rem; */
+    width: 100%;
+}
+.inform_cont_flex{
+    display: block;
+}
+
+/* MEDIA  */
+#media .hamburger i{
+    color: #03AF09;
+}
+.family_song{
+    padding: 4rem 1rem;
+    border-radius: 10px;
+}
+.family_song p{
+    font-size: 17px;
 }
 }

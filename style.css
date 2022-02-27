@@ -181,7 +181,7 @@
     margin: 0 auto;
 }
 .icon img{
-    width: 70px;
+    width: 40px;
 }
 .icon, .media{
     margin: 0 5px;
@@ -197,8 +197,23 @@
     font-weight:lighter;
     letter-spacing: 2px;
 }
-.mob-social{
+.media-cont{
+    justify-content: center;
+}
+.media{
     display: none;
+}
+.mob-social{
+    display: block;
+}
+.mob-social h5{
+    text-align: center;
+    font-size: 17px;
+    margin: 2%;
+    color: rgb(229, 226, 226);
+}
+.social{
+    margin: 0 10px;
 }
 
 /* SECTION 5 - FOOTER */
@@ -361,6 +376,9 @@ input{
     text-transform: capitalize;
     font-family: "Raleway";
 }
+#give_header{
+    padding: 6rem 0 0;
+}
 #information_cont p{
     font-size: 15px;
 }
@@ -371,19 +389,60 @@ input{
 #inform_cont_p, .inform_cont h3{
     color: #ff0000;
 }
+#inform_cont_p{
+    padding-right: 1rem;
+}
 .inform_cont p, .inform_cont li{
     color: #0F6212;
 }
 .inform_cont li{
     margin: 15px 0;
 }
-#inform_cont_p{
-    width: 50%;
+.inform_cont_div span{
+    color: #ff0000;
+    text-transform: uppercase;
+}
+.para-2{
+    color: #006b3e;
 }
 .inform_cont{
-    margin: 50px 0;
+    margin: 2rem 1rem;
+}
+.inform_cont_div{
+    /* margin: 0 1rem; */
+    width: 50%;
+}
+.inform_cont_flex{
+    display: flex;
 }
 .inform_cont h3{
     font-size: 35px;
     font-weight: bold;
+}
+/* MEDIA */
+#media #section1{
+    background-color: #0F6212;
+}
+#media_header{
+    padding: 6rem 0 1rem;
+    background-color: #ECECEC;
+}
+.family_song{
+    text-align: center;
+    background-color: #fff;
+    color: #006b3e;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 20px;
+    padding: 4rem;
+    font-family: "Raleway";
+}
+.family_song h5{
+    text-transform: uppercase;
+    font-family: "Black-tower";
+    font-size: 2rem;
+}
+.family_song p{
+    text-transform: capitalize;
+    line-height: 3;
 }
