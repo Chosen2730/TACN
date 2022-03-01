@@ -190,7 +190,7 @@
 .footer, .copyright{
     font-size: 12px;
 }
-label{
+.contact label{
     text-transform: uppercase;
     margin: 5% 0;
 }
@@ -227,5 +227,23 @@ label{
 }
 .family_song p{
     font-size: 17px;
+}
+
+/* PRAYER */
+.prayer_verse, .form_flex{
+    display: block;
+}
+.prayer_text, .prayer_verse div, .form{
+    width: 85%;
+}
+.form_flex div{
+    /* margin: 0 auto; */
+    width: 100%;
+}
+.form_right{
+    margin-left: 0rem;
+}
+.form_left{
+    margin-right: 0rem;
 }
 }

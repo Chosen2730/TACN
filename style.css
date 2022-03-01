@@ -85,10 +85,7 @@
     color: #fff;
     }
 /* HEADER */
-.carousel-item{
-    /* height: 85vh; */
-    /* object-fit: contain; */
-}
+
 #newSlide{
     position:relative
 }
@@ -261,29 +258,29 @@
 .contact-header span{
     display: block;
 }
-input, label{
+.contact input, label{
     display: block;
 }
-label{
+.contact label{
     text-transform: uppercase;
     margin: 3% 0;
 }
-input{
+.contact input{
     width: 100%;
     padding: 4% 2%;
     background-color: #D6E5FA;
     border: none;
 }
-.checkbox{
+.contact .checkbox{
     width: 20px;
     margin-right: 5px;
 }
-.check{
+.contact .check{
     display: flex;
     margin: 3% 0;
     align-items:baseline;
 }
-.submit{
+.contact .submit{
     background-color: #ff0000;
     font-size: 15px;
     text-transform: uppercase;
@@ -293,7 +290,7 @@ input{
     transition: all ease-in-out .5s;
     cursor: pointer;
 }
-.submit:hover{
+.contact .submit:hover{
     background-color: #910505;
 }
 
@@ -445,4 +442,71 @@ input{
 .family_song p{
     text-transform: capitalize;
     line-height: 3;
+}
+/* PRAYER */
+#prayer_cont{
+    text-transform: capitalize;
+    font-family: "Raleway";
+    color: #006b3e;
+    padding: 2rem 0;
+}
+#prayer hr{
+    color: #ff0000;
+    background-color: #ff0000;
+    margin: 1rem 0;
+}
+.prayer_text{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+p{
+    text-align: left;
+}
+.prayer_verse{
+    display: flex;
+}
+.prayer_verse div{
+    width: 50%;
+    margin: 2rem;
+    color: #ff0000;
+}
+.form{
+    width: 80%;
+    margin: 0 auto;
+}
+.form_flex{
+    display: flex;
+}
+.form_flex div{
+    width: 50%;
+}
+.form_right{
+    margin-left: 3rem;
+}
+.form_left{
+    margin-right: 3rem;
+}
+.form_flex label, input, textarea{
+    display: block;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+.form_flex input{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #006b3e;
+}
+.form_flex #submit{
+    background-color: #006b3e;
+    width: 50%;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    transition: all .4s ease-in-out;
+}
+.form_flex #submit:hover{
+    background-color: #024126;
+    border-radius: 10px;
 }
