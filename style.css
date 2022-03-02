@@ -510,3 +510,29 @@ p{
     background-color: #024126;
     border-radius: 10px;
 }
+
+/* TESTIMONY */
+#testimony .testify_cont{
+    width: 100%;
+    color: #fff;
+    background-color: #006b3e;
+    padding: 4rem;
+}
+#testimony .form_right, #testimony .tips{
+    width: 100%;
+}
+.tips{
+    margin: 2rem 0;
+}
+.location{
+    text-transform: uppercase;
+    color: #ff0000;
+    font-weight: bold;
+}
+.map iframe{
+    width: 100%;
+}
+.location_para{
+    margin: 2rem 0;
+    line-height: 2;
+}
