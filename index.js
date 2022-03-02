@@ -10,11 +10,11 @@ $(".close").click(function(){
     $(".open").show();
     $(".close").hide();
 });
-// $(".media_main").click(function(){
-//   $(".media-drop").toggle();
-// });
+$(".media_main2").hover(function(){
+  $("#media-drop2").toggle();
+});
 $(".media_main").hover(function(){
-  $(".media-drop").toggle();
+  $("#media-drop").toggle();
 });
 
 var scrollToTopBtn = document.getElementById("topButton");

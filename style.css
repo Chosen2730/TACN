@@ -209,6 +209,9 @@
     margin: 2%;
     color: rgb(229, 226, 226);
 }
+.mob-social h5 strong{
+    font-size: 20px;
+}
 .social{
     margin: 0 10px;
 }
@@ -396,8 +399,11 @@
     margin: 15px 0;
 }
 .inform_cont_div span{
-    color: #ff0000;
     text-transform: uppercase;
+}
+.inform_cont_div span a{
+    color: #ff0000;
+    text-decoration: none;
 }
 .para-2{
     color: #006b3e;
@@ -408,6 +414,15 @@
 .inform_cont_div{
     /* margin: 0 1rem; */
     width: 50%;
+}
+.inform_cont_div2 p{
+    text-align: justify;
+}
+.para_about{
+    text-transform:uppercase;
+    font-weight: bold;
+    color: #ff0000;
+    display: block;
 }
 .inform_cont_flex{
     display: flex;
@@ -538,4 +553,44 @@ p{
 .location_para{
     margin: 2rem 0;
     line-height: 2;
+}
+/* EXECUTIVES  */
+#executives{
+    font-family: "Raleway";
+}
+.executives{
+    text-align: center;
+}
+.excos_cont{
+    display: flex;
+    justify-content: center;
+}
+.excos{
+    text-align: center;
+    margin: 2rem;
+}
+.excos div{
+    width: 200px;
+    height:200px;
+    margin: 0 auto;
+    background-color: red;
+    object-fit: cover;
+}
+.exco_item{
+    /* margin: .3rem; */
+}
+.exco_name{
+    margin: .5rem 0;
+    color: #006b3e;
+    text-transform: uppercase;
+}
+.exco_office{
+    font-style: italic;
+    color: #ff0000;
+}
+.excos img{
+    max-width: 200px;
+    max-height: 200%;
+    margin: auto;
+    display: block;
 }

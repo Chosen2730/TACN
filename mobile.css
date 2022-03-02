@@ -22,7 +22,6 @@
 }
 .social h4{
     font-size: 15px;
-    line-height: ;
 }
 .ourChurch{
     margin-bottom: 80px;
@@ -87,7 +86,7 @@
     background-color: rgba(0, 107, 62, 0.9);
     padding: 1rem;
 }
-#media-drop{
+#media-drop, #media-drop2{
   background-color: transparent;
 }
 .nav-right{
@@ -212,6 +211,12 @@
     padding: 0rem 0 0;
 }
 /* INFORMATION */
+#information_cont{
+    width: 90%;
+    margin: 50px auto;
+    text-transform: capitalize;
+    font-family: "Raleway";
+}
 #inform_cont_p{
     width: 100%;
     padding-right: 0;
