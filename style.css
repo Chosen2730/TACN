@@ -478,7 +478,7 @@ p{
 .form_flex{
     display: flex;
 }
-.form_flex div{
+.form_flex_div{
     width: 50%;
 }
 .form_right{
@@ -528,6 +528,9 @@ p{
     text-transform: uppercase;
     color: #ff0000;
     font-weight: bold;
+}
+.contact_div{
+    width: 50%;
 }
 .map iframe{
     width: 100%;

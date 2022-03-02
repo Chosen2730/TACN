@@ -50,6 +50,13 @@
 .header_cont2 img{
     width: 20rem;
 }
+/* PRAYER/TESTIMONY/CONTACT */
+.form_right{
+    margin-left: 1rem;
+}
+.form_left{
+    margin-right: 1rem;
+}
 
 
 }
