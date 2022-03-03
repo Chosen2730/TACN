@@ -5,7 +5,9 @@
 .header_flex{
     padding: 70px 0 10px;
 }
-
+.excos_cont{
+    display: block;
+}
 }
 @media (max-width:785px){
 .nav-left img{
@@ -257,5 +259,15 @@
 }
 .form_left{
     margin-right: 0rem;
+}
+#executives{
+    font-family: "Raleway";
+    width: 90%;
+    margin: 0 auto;
+}
+.excos{
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 10px;
 }
 }

@@ -557,6 +557,8 @@ p{
 /* EXECUTIVES  */
 #executives{
     font-family: "Raleway";
+    width: 80%;
+    margin: 0 auto;
 }
 .executives{
     text-align: center;
@@ -568,16 +570,10 @@ p{
 .excos{
     text-align: center;
     margin: 2rem;
-}
-.excos div{
-    width: 200px;
-    height:200px;
-    margin: 0 auto;
-    background-color: red;
-    object-fit: cover;
-}
-.exco_item{
-    /* margin: .3rem; */
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px 2px #EEEEEE;
 }
 .exco_name{
     margin: .5rem 0;
@@ -590,7 +586,8 @@ p{
 }
 .excos img{
     max-width: 200px;
-    max-height: 200%;
+    /* max-height: 200%; */
+    border-radius: 100%;
     margin: auto;
     display: block;
 }
