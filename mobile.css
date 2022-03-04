@@ -11,7 +11,7 @@
     border-radius: 10px;
 }
 .excos img{
-    max-width: 100px;
+    max-width: 70%;
 }
 }
 @media (max-width:785px){
@@ -273,7 +273,7 @@
 }
 #executives{
     font-family: "Raleway";
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 .excos{

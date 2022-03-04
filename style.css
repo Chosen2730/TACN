@@ -449,10 +449,13 @@
     padding: 4rem;
     font-family: "Raleway";
 }
-.family_song h5{
+.family_song h5, .text_heading{
     text-transform: uppercase;
     font-family: "Black-tower";
     font-size: 2rem;
+    color: #006b3e;
+    letter-spacing: 3px;
+    margin: 2rem 0;
 }
 .family_song p{
     text-transform: capitalize;
@@ -567,11 +570,14 @@ p{
     display: flex;
     justify-content: center;
 }
+.text_heading{
+    font-size: 15px;
+}
 .excos{
     text-align: center;
-    margin: 2rem;
+    margin: 2%;
     background-color: #fff;
-    padding: 3rem;
+    padding: 3%;
     border-radius: 10px;
     box-shadow: 2px 5px 20px 2px #EEEEEE;
 }
@@ -579,13 +585,16 @@ p{
     margin: .5rem 0;
     color: #006b3e;
     text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
 }
 .exco_office{
     font-style: italic;
     color: #ff0000;
+    font-size: 15px;
 }
 .excos img{
-    max-width: 200px;
+    max-width: 50%;
     /* max-height: 200%; */
     border-radius: 100%;
     margin: auto;
