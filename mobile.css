@@ -21,6 +21,17 @@
 .nav-list a{
     font-size: 8px;
 }
+#president_speech{
+    padding: 5% 1%;
+}
+#president_speech img{
+    width: 80%;
+    border-radius: 100%;
+    margin: 3rem 0;
+}
+#president_speech .form_flex{
+    padding: 3rem 1rem;
+}
 .new h5, .upcoming-header h5{
     font-size: 10px;
 }
@@ -56,6 +67,10 @@
 .header_cont2 img{
     width: 20rem;
 }
+#give p{
+    font-size: 15px;
+}
+
 /* PRAYER/TESTIMONY/CONTACT */
 .form_right{
     margin-left: 1rem;
@@ -272,9 +287,7 @@
     margin-right: 0rem;
 }
 #executives{
-    font-family: "Raleway";
     width: 95%;
-    margin: 0 auto;
 }
 .excos{
     margin: 4rem 2rem;

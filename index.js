@@ -1,9 +1,18 @@
 $(".close").hide();
 $('.media-drop').hide();
+$('.speech_span').hide();
 $(".open").click(function(){
     $(".nav-right").show();
     $(".close").show();
     $(".open").hide();
+})
+$("#show_more").click(function(){
+  $(".speech_span").show();
+  $("#show_more").hide();
+})
+$("#show_less").click(function(){
+  $(".speech_span").hide();
+  $("#show_more").show();
 })
 $(".close").click(function(){
     $(".nav-right").hide();

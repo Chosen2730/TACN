@@ -135,6 +135,28 @@
     text-decoration: none;
 }
 
+/* PRESIDENT SPEECH */
+#president_speech{
+    padding: 5%;
+}
+#president_speech img{
+    width: 300px;
+    border-radius: 100%;
+}
+#speech_p{
+    font-family: "Raleway";
+    color: #006b3e;
+    text-align: justify;
+}#president_speech .form_flex{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px 2px #EEEEEE;
+}
+
 /* SECTION 3 - UPCOMING EVENTS */
 #section3{
     text-align: center;
@@ -358,6 +380,12 @@
     margin: 30px 0;
     color: #006b3e;
     font-family: "Raleway";
+    background-color: #024126;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px 2px #EEEEEE;
+
 }
 .account_desc{
     text-transform: capitalize;
