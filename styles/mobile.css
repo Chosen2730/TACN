@@ -5,13 +5,9 @@
   .header_flex {
     padding: 70px 0 10px;
   }
-  .excos {
-    margin: 1rem;
-    padding: 3rem;
-    border-radius: 10px;
-  }
-  .excos img {
-    max-width: 70%;
+  .excos_cont,
+  .cent-excos_cont {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (max-width: 785px) {
@@ -79,14 +75,15 @@
   .form_left {
     margin-right: 1rem;
   }
-  .excos_cont {
-    display: block;
+  .excos_cont,
+  .cent-excos_cont {
+    grid-template-columns: repeat(2, 1fr);
   }
   .excos img {
     max-width: 200px;
   }
 }
-@media (max-width: 686px) {
+@media (max-width: 700px) {
   .carousel .carousel-item img {
     height: 52vh;
     object-fit: cover;
@@ -290,9 +287,13 @@
   #executives {
     width: 95%;
   }
-  .excos {
-    margin: 4rem 2rem;
-    padding: 3rem;
-    border-radius: 10px;
+}
+@media (max-width: 560px) {
+  #executives {
+    width: 80%;
+  }
+  .excos_cont,
+  .cent-excos_cont {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

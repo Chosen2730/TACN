@@ -9,14 +9,14 @@
     to read his word, and the way to Heaven."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="./../styles/style.css" />
+    <link rel="stylesheet" href="./../styles/mobile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="icon" type="image/x-icon" href="Images/TACSFON LOGO.png" />
+    <link rel="icon" type="image/x-icon" href="./../Images/TACSFON LOGO.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,78 +29,76 @@
     ></script>
     <title>TACSFON FUNAAB</title>
   </head>
-  <body id="give">
+  <body id="testimony">
     <section id="section1"></section>
 
     <section id="give_header">
       <div class="header_flex">
         <div class="header_cont header_cont1">
-          <h1>Giving</h1>
-          <p>
-            Give and gifts will be given to you; a good measure, packed
-            together, shaken down, and overflowing, will be poured into your
-            lap. For the measure with which you measure will in return be
-            measured out to you.” <br />
-            <strong><em>Luke 6:38</em></strong>
+          <h1>Testimony</h1>
+          <p style="text-transform: capitalize">
+            They triumphed over him by the blood of the Lamb and by the word of
+            their testimony; <br />
+            <span style="color: #fff212"><em>Rev 12:11</em></span>
           </p>
         </div>
         <div class="header_cont header_cont2">
-          <img src="Images/plant.png" alt="" />
+          <!-- <img src="Images/plant.png" alt=""> -->
         </div>
       </div>
     </section>
-    <section id="account">
-      <div class="account1">
-        <h3>TACSFON FUNAAB - MAIN account</h3>
-        <p class="account_desc">
-          (For Tithe and Offering, including Other Freewill Giving To The
-          Church)
-        </p>
+
+    <section id="prayer_cont">
+      <div class="prayer_text">
+        <h4>Encourage someone.</h4>
+        <hr />
       </div>
 
-      <div class="account1">
-        <p class="account_name">
-          Account Name - <strong>The Apostolic Church Students</strong>
-        </p>
-        <p class="account_name">Account Number - <strong>0050905273</strong></p>
-        <p class="account_name">Bank Name - <strong>GT Bank</strong></p>
+      <div class="form">
+        <div class="form_flex">
+          <div class="form_left form_flex_div">
+            <div class="testify_cont">
+              <h2 style="text-transform: uppercase">Testify</h2>
+              <p>
+                Thank God. Encourage others. <br /><br />
+                There is great power in sharing what God is doing in your life.
+                You can Encourage, Strenthen and motivate other believers.
+              </p>
+            </div>
+            <div class="tips">
+              <h5>Tips for sharing</h5>
+              <ul>
+                <li>Keep it simple</li>
+                <li>Be concise yet detailed</li>
+                <li>Be ready to provide suporting documents if necessary.</li>
+              </ul>
+            </div>
+          </div>
+          <form
+            action="https://formspree.io/f/xdobbezn"
+            method="POST"
+            id="form"
+          >
+            <div class="form_right form_flex_div">
+              <h3 style="font-weight: bold; font-size: 17px">
+                Share your testimony.
+              </h3>
+              <hr />
+              <label for="name">Your name (required)</label>
+              <input name="name" type="name" required />
+              <label for="email">Your email (required)</label>
+              <input name="email" type="email" required />
+              <label for="tel">Testimony Title</label>
+              <input required type="text" name="tel" id="" />
+              <label for="text">Your testimony</label>
+              <textarea name="testimony" id="" cols="30" rows="10"></textarea>
+              <input id="submit" type="submit" value="Send" />
+            </div>
+            <p id="form-alert" class="form-alert"></p>
+          </form>
+        </div>
       </div>
     </section>
-    <hr />
-    <section id="account">
-      <div class="account1">
-        <h3>TACSFON PROJECT ACCOUNT</h3>
-        <p class="account_desc">
-          (For building & Purchasing Strategic Instruments for Kingdom
-          Expansion)
-        </p>
-      </div>
-
-      <div class="account1">
-        <p class="account_name">
-          Account Name - <strong>The Apostolic Church Students</strong>
-        </p>
-        <p class="account_name">Account Number - <strong>0143829523</strong></p>
-        <p class="account_name">Bank Name - <strong>GT Bank</strong></p>
-      </div>
-
-      <div class="account1">
-        <h3>Use a USSD Code</h3>
-        <p class="account_desc">
-          Give By Mobile Banking Using THe USSD Code Below:
-        </p>
-      </div>
-
-      <div class="account1">
-        <h3>*Bank code*000*470*amount#</h3>
-        <p>GTB - *737*000*470*amount#</p>
-        <p>Access - *901*000*470*amount#</p>
-        <p>FCMB - *329*000*470*amount#</p>
-        <p>Stanbic IBTC - *909*000*470*amount#</p>
-        <p>Zenith - *966*000*470*amount#</p>
-      </div>
-    </section>
-
     <section id="section4">
       <!-- SOCIAL SECTION HERE, ADDED DYNAMICALLY VIA JAVASCRIPT -->
     </section>
@@ -134,10 +132,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-    <script src="index.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
+    <script type="module" src="./../javascript/index.js"></script>
   </body>
 </html>
