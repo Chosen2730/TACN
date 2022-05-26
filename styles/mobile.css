@@ -118,15 +118,21 @@
   #media-drop2 {
     background-color: transparent;
   }
+  .media-drop {
+    text-align: center;
+  }
   .nav-list a {
     font-size: 15px;
   }
   .nav-list {
     transition: all ease-in-out 0.5s;
     padding: 1rem;
+    width: auto;
   }
   .hamburger {
     display: block;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: 20px;
     font-size: 1.5rem;

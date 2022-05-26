@@ -25,10 +25,10 @@ export const nav = `<div id="navigation">
                     <a href="./media.html">Family Song</a>
                   </li>
                   <li class="dropdown_item">
-                    <a href="./materials.html">Course Materials</a>
+                    <a href="/">Course Materials</a>
                   </li>
                   <li class="dropdown_item">
-                    <a href="./events.html">Upcoming Events</a>
+                    <a href="/">Upcoming Events</a>
                   </li>
                 </ul>
               </div>
