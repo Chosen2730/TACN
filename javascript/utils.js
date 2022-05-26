@@ -1,7 +1,7 @@
 export const nav = `<div id="navigation">
         <div class="nav-left">
           <div class="navbrand">
-            <a href="index.html"
+            <a href="/"
               ><img src="./../Images/TACSFON LOGO.png" alt=""
             /></a>
           </div>
@@ -11,7 +11,7 @@ export const nav = `<div id="navigation">
         </div>
         <div class="nav-right">
           <ul class="nav-items">
-            <li class="nav-list"><a href="./index.html">Home</a></li>
+            <li class="nav-list"><a href="/">Home</a></li>
             <li class="nav-list"><a href="./about.html">Who we are</a></li>
             <li class="nav-list"><a href="./give.html">Give</a></li>
             <li class="nav-list media1">

@@ -16,7 +16,8 @@ html {
   scroll-behavior: smooth;
 }
 /* NAVIGATION */
-#section1 {
+#section1,
+#Section1 {
   position: absolute;
   top: 0;
   z-index: 9000;
