@@ -15,26 +15,12 @@ export const nav = `<div id="navigation">
             <li class="nav-list"><a href="./about.html">Who we are</a></li>
             <li class="nav-list"><a href="./give.html">Give</a></li>
             <li class="nav-list media1">
-              <a href="#">+ Information Center</a>
+              <a href="#">+ Info Center</a>
               <div class="media-drop drop-down1">
                 <ul class="media-drop">
                   <li class="dropdown_item">
-                    <a href="./prayer.html">Prayer Request</a>
-                  </li>
-                  <li class="dropdown_item">
-                    <a href="./testimony.html">Testimony</a>
-                  </li>
-                  <li class="dropdown_item">
                     <a href="./executives.html">Executives</a>
                   </li>
-                  <li class="dropdown_item"> <a href="./contact.html">Contact</li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-list media2">
-              <a href="#">+ Media</a>
-              <div class="media-drop drop-down2">
-                <ul class="media-drop">
                   <li class="dropdown_item">
                     <a href="./media.html">Family Song</a>
                   </li>
@@ -47,7 +33,6 @@ export const nav = `<div id="navigation">
                 </ul>
               </div>
             </li>
-            <li class="nav-list"><i class="fas fa-search"></i></li>
           </ul>
         </div>
          </div>
@@ -102,6 +87,8 @@ export const footerContainer = `<div class="footer">
             <input type="tel" name="tel" id="">
             <label for="Email">Email (Required)</label>
             <input type="email" name="email" id="">
+            <label for="text">Prayer Request/Testimony or Message (Required)</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
             <div class="check">
                 <input type="checkbox" name='checkbox' class="checkbox"> 
                 <p>I confessed that I have received JESUS Christ as my 
