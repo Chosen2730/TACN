@@ -142,9 +142,22 @@
     display: none;
   }
   #section2 {
-    display: block;
     padding: 12% 7% 12% 12%;
     /* text-align: center; */
+  }
+  .new_cont {
+    display: block;
+  }
+  .watch {
+    display: block;
+    text-align: left;
+  }
+  .watch a {
+    margin: 0 1rem 0 0;
+  }
+  .media_logo {
+    width: 50px;
+    object-fit: cover;
   }
   #section2 hr {
     height: 20px;
@@ -193,7 +206,17 @@
     margin: 2% 2% 5%;
   }
   .icon img {
-    width: 50px;
+    width: 20px;
+    height: 20px;
+  }
+  .icon {
+    padding: 0.2rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .footer {
     display: block;

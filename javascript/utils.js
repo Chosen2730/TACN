@@ -24,15 +24,32 @@ export const nav = `<div id="navigation">
                   <li class="dropdown_item">
                     <a href="./media.html">Family Song</a>
                   </li>
-                  <li class="dropdown_item">
-                    <a href="/">Course Materials</a>
-                  </li>
-                  <li class="dropdown_item">
-                    <a href="/">Upcoming Events</a>
+                   <li class="dropdown_item">
+                    <a href="./events.html">Upcoming Events</a>
                   </li>
                 </ul>
               </div>
             </li>
+            <li class="nav-list media2">
+              <a href="#">+ Resources</a>
+              <div class="media-drop drop-down2">
+                <ul class="media-drop">
+                  <li class="dropdown_item">
+                    <a href="https://drive.google.com/drive/folders/1XuzEzopVvmNaLI1r5AlSTrkJhQvGOhFp">Course Materials</a>
+                  </li>
+                  <li class="dropdown_item">
+                    <a href="https://drive.google.com/drive/folders/1xcJZh9cpU8oDVFVsw_hHYZvL0LV7CX70">Past Questions</a>
+                  </li>
+                   <li class="dropdown_item">
+                    <a href="https://drive.google.com/drive/folders/1R3hha6OGRB2V3cSi-OEsAhX79rPVkwvg">Inspirational Books</a>
+                  </li>
+                  <li class="dropdown_item">
+                    <a href="https://drive.google.com/drive/folders/1jkKYN-DefMlJkHiCsERJ9a3gTt9E3-e9">Sermons/Messages</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            
           </ul>
         </div>
          </div>
@@ -50,22 +67,23 @@ export const socialContainer = `<div class="mob-social">
             </div>
             <div class="social">
                 <div class="icon">
-                    <a href="www.instagram.com/tacsfon_funaab"><img src="./../Images/ig.png" alt=""></a>
+                    <a href="https://www.instagram.com/tacsfon_funaab/"><img src="./../Images/ig.png" alt=""></a>
                 </div>
             </div>
             <div class="social">
                 <div class="icon">
-                    <a href="https://wa.me/234814009259"><img src="./../Images/wa.png" alt=""></i></a>
+                    <a href="tel:+2348140092590"><img src="./../Images/call.png" alt=""></i></a>
                 </div>
             </div>
         </div>`;
-export const footerContainer = `<div class="footer">
+
+export const footerContainer = `<div class="footer" id='contact'>
         <div class="about">
-            <h3>About Us</h3>
+            <h3>Contact Us</h3>
             <p>
-                Palmview, Camp Junction, FUNAAB Alabata, Abeokuta, Ogun State. <br>
+                Address: Glorious City, Palmview, Camp Junction, FUNAAB Alabata, Abeokuta, Ogun State. <br>
                 Email: tacfonfunaab@gmail.com;<br>
-                Phone: +234 814 452 6136
+                Phone: +234-814-0092590
             </p>
             <h4 class="ourChurch">Our Church</h3>
             <h3>Service Times</h3>
@@ -77,7 +95,7 @@ export const footerContainer = `<div class="footer">
         </div>
         <hr class="hr-line">
         <div class="contact">
-            <h5 class="contact-header">I've made a choice today, <span>(Salvation Form)</span> </h5>
+            <h5 class="contact-header">We are always available to listen to you, pray with you and also rejoice with you.</h5>
             <form action="https://formspree.io/f/xdobbezn" method="POST" id="form">
             <label for="name">First Name (Required)</label>
             <input type="text" name="name" id="">
@@ -88,7 +106,7 @@ export const footerContainer = `<div class="footer">
             <label for="Email">Email (Required)</label>
             <input type="email" name="email" id="">
             <label for="text">Prayer Request/Testimony or Message (Required)</label>
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <textarea name="message" id="" cols="30" rows="2"></textarea>
             <div class="check">
                 <input type="checkbox" name='checkbox' class="checkbox"> 
                 <p>I confessed that I have received JESUS Christ as my 

@@ -98,6 +98,7 @@ html {
   display: none;
   text-align: left;
 }
+
 .show-media {
   display: block;
 }
@@ -134,12 +135,14 @@ div.media-drop {
 
 /* SECTION 2 */
 #section2 {
+  background-color: #d6e5fa;
+  padding: 5%;
+}
+.new_cont {
+  align-items: center;
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  padding: 5%;
-  background-color: #d6e5fa;
-  align-items: center;
 }
 #section2 hr {
   height: 70px;
@@ -148,6 +151,18 @@ div.media-drop {
 }
 .new {
   margin: 0 auto;
+}
+.watch {
+  display: block;
+  text-align: center;
+}
+.watch a {
+  margin: 0 1rem;
+}
+.media_logo {
+  min-width: 80px;
+  max-width: 100px;
+  object-fit: cover;
 }
 .new h5,
 .upcoming-header h5 {
@@ -173,6 +188,8 @@ div.media-drop {
 #president_speech img {
   width: 300px;
   border-radius: 100%;
+
+  box-shadow: 0 0 20px 2px #adbfb7;
 }
 #speech_p {
   font-family: "Raleway";
@@ -238,8 +255,20 @@ div.media-drop {
   font-weight: 100;
   margin: 0 auto;
 }
+.icon {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 100%;
+  box-shadow: 0 0 20px 8px #024126;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
 .icon img {
-  width: 40px;
+  width: 30px;
 }
 .icon,
 .media {
