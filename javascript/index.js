@@ -112,13 +112,14 @@ function displayExecutives(selector, varName) {
   const excoCont = document.querySelector(`.${selector}`);
   const excos = varName
     .map((exco) => {
-      const { image, name, position } = exco;
+      const { image, name, position, tel } = exco;
 
       const img = image || "./../exco/unknown.jpg";
       return `<div class="excos">
             <div><img src=${img} alt=${name} /></div>
             <h5 class="exco_name">${name}</h5>
             <h5 class="exco_office">- ${position} -</h5>
+            <a href=${`tel:${tel}`}>${tel}</a>
           </div>`;
     })
     .join("");

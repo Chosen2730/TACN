@@ -374,8 +374,8 @@ select {
   background-color: #d6e5fa;
   border: none;
 }
-.contact select {
-  /* margin: 1rem 0; */
+.contact textarea {
+  margin: 1rem 0;
 }
 .contact .checkbox {
   width: 20px;
@@ -711,6 +711,10 @@ textarea {
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   margin: 2rem 0;
+}
+.excos a {
+  text-decoration: none;
+  font-size: 1rem;
 }
 .text_heading {
   font-size: 15px;

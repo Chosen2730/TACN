@@ -82,7 +82,7 @@ export const footerContainer = `<div class="footer" id='contact'>
             <h3>Our Church</h3>
             <p>
                 Address: Glorious City, Palmview, Camp Junction, FUNAAB Alabata, Abeokuta, Ogun State. <br>
-                Email: tacfonfunaab@gmail.com;<br>
+                Email: tacfonfunaab01@gmail.com;<br>
                 Phone: +234-814-0092590
             </p>
             
@@ -111,7 +111,7 @@ export const footerContainer = `<div class="footer" id='contact'>
             <input type="tel" required name="tel" id="">
             <label for="Email">Email (Required)</label>
             <input type="email" required name="email" id="">
-            <textarea name="message" id="" required cols="30" rows="3"></textarea>
+            <textarea placeholder='Enter your prayer request, questions or testmony here.' name="message" id="" required cols="30" rows="6"></textarea>
             <div class="check">
                 <input type="checkbox" name='checkbox' class="checkbox"> 
                 <p>I confessed that I have received JESUS Christ as my 
@@ -130,102 +130,121 @@ export const executives = [
     position: "president",
     name: "obakunle john",
     image: "./../exco/PRESIDENT.jpg",
-    tel: "",
+    tel: "08140092590",
   },
   {
     position: "vice president",
     name: "ogunyale Isaiah",
     image: "./../exco/vp.jpg",
+    tel: "08113540205",
   },
   {
     position: "General secretary",
     name: "Adebayo Segun",
     image: "./../exco/gensec.jpg",
+    tel: "09069601361",
   },
   {
     position: "Vice President (Mini Campus)",
     name: "Adeyombo Faith",
     image: "",
+    tel: "08170364433",
   },
   {
     position: "FYB cordinator",
     name: "PHILIP DEBORAH",
     image: "./../exco/fyb.jpg",
+    tel: "09026801579",
   },
   {
     position: "Prayer Cordinator",
     name: "OLA BUSOLA",
     image: "./../exco/prayo.jpg",
+    tel: "07065947918",
   },
   {
     position: "Ass General Sectretary",
     name: "Jayeola Treasure",
     image: "./../exco/ags.jpg",
+    tel: "07026920645",
   },
   {
     position: "Bible Study Secretary",
     name: "Odeyemi Salem",
     image: "",
+    tel: "08038371181",
   },
   {
     position: "Financial Secretary",
     name: "OYEDEJI ANUOLUWAPO",
     image: "./../exco/finsec.jpg",
+    tel: "07051105126",
   },
   {
     position: "Treasure",
     name: "Osinubi Omotoyosi",
     image: "./../exco/treasure.jpg",
+    tel: "08169175473",
   },
   {
     position: "Brothers/Project's Cordinator",
     name: "ADESOLA ADEOLU",
     image: "",
+    tel: "08166783906",
   },
   {
     position: "Drama Cordinator",
     name: "ADEDAYO OMOBOBOYE",
     image: "./../exco/drama.jpg",
+    tel: "08171701318",
   },
   {
     position: "Choir Cordinator",
     name: "KEHINDE BENJAMIN",
     image: "./../exco/choir.jpg",
+    tel: "08101288931",
   },
   {
     position: "Publicity Secretary",
     name: "OLAITAN TIJESUNI O.",
     image: "./../exco/pub.jpg",
+    tel: "08161510446",
   },
   {
     position: "Technical Director",
     name: "OLATUNDE PHILIP",
     image: "./../exco/tech.jpg",
+    tel: "09037579471",
   },
   {
     position: "Organising Secretary",
     name: "ADOJUTELEGAN TOLULOPE",
     image: "./../exco/orga.jpg",
+    tel: "08106033395",
   },
   {
     position: "Header Usher",
     name: "ENIOLA BOLUWATIFE",
     image: "",
+    tel: "08053628834",
   },
   {
     position: "Welfare Secretary",
     name: "OLAWOYIN ANUOLUWAPO",
     image: "",
+    tel: "07082511927",
   },
   {
     position: "Academic Cordinator",
     name: "IDOWU DEBORAH",
     image: "",
+    tel: "08067275070",
   },
   {
     position: "Evangelism Secretary",
     name: "ADELEYE DAVID",
     image: "",
+    tel: "07055772700",
   },
   {
     position: "Centers Cordinator ",
@@ -237,11 +256,13 @@ export const executives = [
     position: "Sister's Cordinator",
     name: "GIDEON ROSELINE",
     image: "./../exco/siscord.jpg",
+    tel: "08160537486",
   },
   {
     position: "Mini Campus & Welfare Sis. Coordinator  ",
     name: "JOHNSON RACHEAL",
     image: "./../exco/msiscod.jpg",
+    tel: "09039537180",
   },
 ];
 
@@ -250,10 +271,12 @@ export const genExecutives = [
     position: "Oluwo Center Coordinator",
     name: "AKANJI FUNMILAYO",
     image: "./../exco/cent1.jpg",
+    tel: "08064857523",
   },
   {
     position: "Isolu Cele Center Coordinator ",
     name: "FASASI DEBORAH",
     image: "./../exco/cent2.jpg",
+    tel: "08102543477",
   },
 ];
