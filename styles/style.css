@@ -715,6 +715,7 @@ textarea {
 .excos a {
   text-decoration: none;
   font-size: 1rem;
+  color: #024126;
 }
 .text_heading {
   font-size: 15px;
@@ -744,6 +745,7 @@ textarea {
   border-radius: 100%;
   margin: auto;
   display: block;
+  box-shadow: 0 0 10px 2px #8d8c8c;
 }
 .form-alert {
   background: rgba(1, 41, 24, 0.8);
