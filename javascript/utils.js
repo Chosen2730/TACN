@@ -81,7 +81,7 @@ export const footerContainer = `<div class="footer" id='contact'>
         <div class="about">
             <h3>Our Church</h3>
             <p>
-                Address: Glorious City, Palmview, Camp Junction, FUNAAB Alabata, Abeokuta, Ogun State. <br>
+                Address: Glorious City, Palmview Junction, FUNAAB Alabata, Abeokuta, Ogun State. <br>
                 Email: tacfonfunaab01@gmail.com;<br>
                 Phone: +234-814-0092590
             </p>
@@ -278,5 +278,35 @@ export const genExecutives = [
     name: "FASASI DEBORAH",
     image: "./../exco/cent2.jpg",
     tel: "08102543477",
+  },
+  {
+    position: "Surulere/Peak Olam(Camp2) ",
+    name: "Oguntolu Emmanuel",
+    image: "",
+    tel: "08069774788",
+  },
+  {
+    position: "Agbede ",
+    name: "Udoaka Happiness",
+    image: "",
+    tel: "09072597746",
+  },
+  {
+    position: "Oluwo/Zoo",
+    name: "Akanji Funmilayo",
+    image: "",
+    tel: "08064857523",
+  },
+  {
+    position: "Accord",
+    name: "Amoda Oyefolakemi",
+    image: "",
+    tel: "08157419016",
+  },
+  {
+    position: "Fatola, Apakila (Camp1)",
+    name: "Adebowale Boluwatife",
+    image: "",
+    tel: "08055635105",
   },
 ];
