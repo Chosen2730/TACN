@@ -357,7 +357,9 @@ h4 {
 }
 .contact input,
 label,
-textarea {
+textarea,
+select,
+option {
   display: block;
 }
 .contact label {
@@ -365,14 +367,15 @@ textarea {
   margin: 3% 0;
 }
 .contact input,
-textarea {
+textarea,
+select {
   width: 100%;
   padding: 4% 2%;
   background-color: #d6e5fa;
   border: none;
 }
-.contact textarea {
-  /* margin: 2rem 0; */
+.contact select {
+  /* margin: 1rem 0; */
 }
 .contact .checkbox {
   width: 20px;

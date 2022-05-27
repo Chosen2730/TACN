@@ -79,13 +79,13 @@ export const socialContainer = `<div class="mob-social">
 
 export const footerContainer = `<div class="footer" id='contact'>
         <div class="about">
-            <h3>Contact Us</h3>
+            <h3>Our Church</h3>
             <p>
                 Address: Glorious City, Palmview, Camp Junction, FUNAAB Alabata, Abeokuta, Ogun State. <br>
                 Email: tacfonfunaab@gmail.com;<br>
                 Phone: +234-814-0092590
             </p>
-            <h4 class="ourChurch">Our Church</h3>
+            
             <h3>Service Times</h3>
             <p class="days">
                 Sundays at 8:00am <br>
@@ -94,19 +94,24 @@ export const footerContainer = `<div class="footer" id='contact'>
             </p>
         </div>
         <hr class="hr-line">
-        <div class="contact">
+        <div class="contact" id='contact_form'>
             <h5 class="contact-header">We are always available to listen to you, pray with you and also rejoice with you.</h5>
             <form action="https://formspree.io/f/xdobbezn" method="POST" id="form">
-            <label for="name">First Name (Required)</label>
-            <input type="text" name="name" id="">
+            <select>
+              <option name='all'>Select Category</option>
+              <option name='prayer'>Prayer Request</option>
+              <option name='testimony'>Testimony</option>
+              <option name='questions'>Questions/Enquiry</option>
+            </select>
+            <label for="name" >First Name (Required)</label>
+            <input type="text" required name="name" id="">
             <label for="name">Last Name (Required)</label>
-            <input type="text" name="last name" id="">
+            <input type="text" required name="last name" id="">
             <label for="number">Phone Number (Required)</label>
-            <input type="tel" name="tel" id="">
+            <input type="tel" required name="tel" id="">
             <label for="Email">Email (Required)</label>
-            <input type="email" name="email" id="">
-            <label for="text">Prayer Request/Testimony or Message (Required)</label>
-            <textarea name="message" id="" cols="30" rows="2"></textarea>
+            <input type="email" required name="email" id="">
+            <textarea name="message" id="" required cols="30" rows="3"></textarea>
             <div class="check">
                 <input type="checkbox" name='checkbox' class="checkbox"> 
                 <p>I confessed that I have received JESUS Christ as my 
@@ -125,6 +130,7 @@ export const executives = [
     position: "president",
     name: "obakunle john",
     image: "./../exco/PRESIDENT.jpg",
+    tel: "",
   },
   {
     position: "vice president",
@@ -225,6 +231,7 @@ export const executives = [
     position: "Centers Cordinator ",
     name: "ADEOSUN TOLULOPE",
     image: "",
+    tel: "0813692200",
   },
   {
     position: "Sister's Cordinator",
