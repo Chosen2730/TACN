@@ -1,0 +1,61 @@
+.hero {
+  background: url("../images/back.png");
+}
+.midSection {
+  background: url("../images/back2.png");
+}
+.giveHeader {
+  background: url("../images/give.png");
+}
+.photoHeader {
+  background: url("../images/gall.png");
+}
+.testimonyHeader {
+  background: linear-gradient(rgba(39, 1, 1, 0.7), rgba(2, 47, 22, 0.7)),
+    url("../images/tstimony.jpg");
+}
+.aboutHeader {
+  background: linear-gradient(rgba(39, 1, 1, 0.7), rgba(2, 47, 22, 0.7)),
+    url("../images/about.jpg");
+}
+.songHeader {
+  background: linear-gradient(rgba(39, 1, 1, 0.7), rgba(2, 47, 22, 0.7)),
+    url("../images/song.jpg");
+}
+.excoHeader {
+  background: linear-gradient(rgba(39, 1, 1, 0.7), rgba(2, 47, 22, 0.7)),
+    url("../images/executives.jpg");
+}
+
+.hero,
+.midSection,
+.giveHeader,
+.photoHeader,
+.photoHeader,
+.testimonyHeader,
+.aboutHeader,
+.songHeader,
+.excoHeader {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.gallery {
+  position: fixed;
+  top: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  height: 100vh;
+  gap: 2rem;
+  z-index: 9;
+}
+.gallery img {
+  width: 80vw;
+  height: 80vh;
+  object-fit: scale-down;
+}
